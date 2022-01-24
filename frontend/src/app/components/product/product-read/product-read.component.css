@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+}
+
+.acoes {
+  display: flex;
+  flex-direction: row;
+}
+
+.edit {
+  margin-right: 10px;
+}
+
+.edit > i {
+  color: #d9cd26;
+}
+
+.delete {
+  box-shadow: none;
+  color: #e35e6b;
+  padding: 0;
+  min-width: 0;
+  line-height: 1;
+}
